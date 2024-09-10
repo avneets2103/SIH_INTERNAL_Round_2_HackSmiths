@@ -85,6 +85,7 @@ and close existing defense gaps, securing India’s economic and national stabil
 ![alt text](image.png)
 
 # 🛠️ **Technologies Used:**  
+<!-- TODO: Add ML and backend related shields here -->
 ![NextJS](https://img.shields.io/badge/NextJS-black?style=for-the-badge&logo=Next.js&logoColor=white&color=black) 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) 
 ![NextUI](https://img.shields.io/badge/NextUI-black?style=for-the-badge&logo=nextui&logoColor=black&color=CCFFFF) 
@@ -102,7 +103,7 @@ and close existing defense gaps, securing India’s economic and national stabil
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 
-
+<!-- TODO: Add ML and backend related stack here -->
 ### **Frontend & Edge Functions:**
 - **Next.js:** A versatile and powerful framework for building server-rendered React applications.
 - **Typescript::** A strongly typed programming language that builds on JavaScript, helps reduce bugs, and improves code quality.
@@ -120,9 +121,9 @@ and close existing defense gaps, securing India’s economic and national stabil
 
 ## Project Links
  
-- **SIH Presentation:** [Final SIH Presentation]()
+- **SIH Presentation:** [Final SIH Presentation](https://github.com/avneets2103/SIH_INTERNAL_Round_2_HackSmiths/blob/main/files/SIH_PPT_HackSmiths.pdf)
+<!-- TODO: Add video link here -->
 - **Video Demonstration:** [Watch_Demo Video]()
 - **Live Deployment:** [View Deployment](https://sih-app.vercel.app/login)
-- **Source Code for Website:** [Internal-Website]()
-- **Source Code for Python server:** [Med-Python-Server]()
+- **Source Code** [View Source Code](https://github.com/avneets2103/SIH_INTERNAL_Round_2_HackSmiths/tree/main/code)
 

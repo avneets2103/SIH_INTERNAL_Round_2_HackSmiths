@@ -17,7 +17,7 @@ This repository contains the codebase for a **Real-Time Cyber Threat Monitoring 
 ## Technology Stack
 
 This project leverages the following technologies:
-
+<!-- TODO: Update and append ML and backend tech stack here -->
 - **[Next.js](https://nextjs.org/):** A powerful framework for building server-rendered React applications.
 - **[Typescript](https://www.typescriptlang.org/):** Enhances JavaScript with type safety, reducing bugs and improving code maintainability.
 - **[Node.js](https://nodejs.org/en):** Backend runtime built on Chrome's V8 JavaScript engine, optimized for scalability and speed.
@@ -44,8 +44,8 @@ Follow these steps to run the project locally.
 
 <!-- TODO: Changes to make here  -->
 ```bash
-git clone git@github.com:<username>Cyber_Threat_Monitoring_System.git
-cd Cyber_Threat_Monitoring_System
+git clone https://github.com/avneets2103/SIH_INTERNAL_Round_2_HackSmiths
+cd SIH_INTERNAL_Round_2_HackSmiths
 ```
 ### 2. Run the Website
 #### 2.1 . Backend
@@ -56,6 +56,7 @@ Follow these steps to set up and run the backend locally:
    Once you are inside the backend directory, install the necessary dependencies:
 
    ```bash
+   cd Website/Backend
    npm install
    ```
 
@@ -83,6 +84,7 @@ Follow these steps to set up and run the backend locally:
    Once you are inside the backend directory, install the necessary dependencies:
 
    ```bash
+   cd Website/Frontend
    npm install
    ```
 
@@ -96,10 +98,10 @@ Follow these steps to set up and run the backend locally:
    This will start the server on port 3000 and you can access it by visiting http://localhost:3000 in your web browser.
 
 
+<!-- TODO: Local setup of python server here -->
 ### 3. Run the Python server
 ```bash
-cd code
-cd Medical_Chat_Assistant
+cd PythonServer
 pip install -r requirements.txt
 python api.py
 ```
