@@ -41,6 +41,29 @@ This repository contains the codebase for a **Real-Time Cyber Threat Monitoring 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 ![JWT](https://img.shields.io/badge/JWT-b?style=for-the-badge&logo=jsonwebtokens&logoColor=white&color=%23000000) 
 
+
+This project leverages the following technologies:
+- **[Langchain](https://python.langchain.com/v0.2/docs/introduction/):** Framework for utilizing large language models to aid in threat analysis and classification.
+- **[CrewAI](https://github.com/crew-ai/crew-ai)**: Library for implementing the multi-agent RAG system.
+- **[Flask](https://flask.palletsprojects.com/en/2.3.x/)**: Python backend for managing chatbot interactions.
+- **[Open source LLM model]()**: llama3-70b-8192 (used through ChatGroq tool provided by Langchain)
+- **[Unsplash API (free tier)]()**: to generate images for articles through LLM prompt
+- **[Next.js](https://nextjs.org/):** A powerful framework for building server-rendered React applications.
+- **[Typescript](https://www.typescriptlang.org/):** Enhances JavaScript with type safety, reducing bugs and improving code maintainability.
+- **[RTK (Redux Toolkit)](https://redux-toolkit.js.org/):** State management library for React, ensuring efficient data flow across the app.
+- **[NextUI](https://nextui.org/):** A library for sleek and responsive UI components, ensuring a polished user experience.
+- **[Tailwind CSS](https://tailwindcss.com/):** Utility-first CSS framework, enabling rapid UI design and development.
+- **[Nodemailer](https://www.npmjs.com/package/nodemailer):** Allows the system to send automated email alerts for critical threat updates.
+- **[Node](https://nodejs.ord/en):** A JavaScript runtime built on Chrome's V8 JavaScript engine. It's fast, it's easy to use, and it works on all operating systems.
+- **[Postman](https://www.postman.com/)**: A tool for testing APIs.
+- **[Express.js](https://expressjs.com/)**: A Node.js framework for building web applications.
+- **[MongoDB](https://www.mongodb.com/):** A document database that stores data in flexible, JSON-like documents.
+- **[JWT](https://jwt.io/)**: A token-based authentication system for securing API requests.
+- **[AWS](https://aws.amazon.com/)**: A cloud computing platform that provides scalable and cost-effective infrastructure for hosting web applications.
+- **[NPM](https://www.npmjs.com/)**: A package manager for Node.js, used for managing dependencies and managing the project's codebase.
+- **[JavaScript](https://www.javascript.com/)**: A programming language that is used to add interactivity and dynamic behavior to web pages.
+
+
 ## Key Features
 
 - **Real-Time Threat Detection:** Monitors multiple data sources, including social media and forums, to identify potential threats in real time.
@@ -58,15 +81,13 @@ Follow these steps to run the project locally.
 git clone https://github.com/avneets2103/SIH_INTERNAL_Round_2_HackSmiths
 cd SIH_INTERNAL_Round_2_HackSmiths
 ```
-
 ### 2. Run the Website
-
-#### 2.1. Backend
+#### 2.1 . Backend
 Follow these steps to set up and run the backend locally:
 
 1. **Install Dependencies**
 
-   Navigate to the backend directory and install the necessary dependencies:
+   Once you are inside the backend directory, install the necessary dependencies:
 
    ```bash
    cd Website/Backend
@@ -75,7 +96,12 @@ Follow these steps to set up and run the backend locally:
 
 2. **Configure Environment Variables**
 
-   Obtain the .env file containing the necessary environment variables from a secure source or create your own. Place this .env file in the root directory of the backend project.
+   Obtain the .env file containing the necessary environment variables from a secure source or create your own. Ensure that it includes the following variables:
+   <!-- TODO: Add the env file here -->
+   ```bash
+   
+   ```
+   Place this .env file in the root directory of the backend project.
 
 3. **Start the Server**
 
@@ -86,10 +112,10 @@ Follow these steps to set up and run the backend locally:
    ```   
    This will start the server on port 4000 and you can access it by visiting http://localhost:4000 in your web browser.
 
-#### 2.2. Frontend
+#### 2.2 . Frontend
 1. **Install Dependencies**
 
-   Navigate to the frontend directory and install the necessary dependencies:
+   Once you are inside the backend directory, install the necessary dependencies:
 
    ```bash
    cd Website/Frontend
@@ -104,7 +130,6 @@ Follow these steps to set up and run the backend locally:
    npm run dev
    ```   
    This will start the server on port 3000 and you can access it by visiting http://localhost:3000 in your web browser.
-
 ### 3. Run the Python Server
 
 To set up and run the Python server:
@@ -137,7 +162,7 @@ To set up and run the Python server:
    LANGCHAIN_PROJECT=ProjectName
    GOOGLE_API_KEY=xxx
    GROQ_API_KEY=xxx
-   SERVER_PORT=4000
+   SERVER_PORT=5000
    SERPER_API_KEY=xxx
    SERP_API_KEY=xxx
    TAVILY_API_KEY=xxx
@@ -179,20 +204,4 @@ The Python server provides the following API endpoints:
    - **Method:** GET
    - **Response:** A JSON object containing information about recent articles and blogs on cybersecurity threats, incidents, cybersecurity practices, and their relevance in Indian cyberspace.
 
-## Environment Parameters
 
-The following environment parameters are required for the Python server:
-
-```
-LANGCHAIN_API_KEY=xxx
-LANGCHAIN_PROJECT=ProjectName
-GOOGLE_API_KEY=xxx
-GROQ_API_KEY=xxx
-SERVER_PORT=4000
-SERPER_API_KEY=xxx
-SERP_API_KEY=xxx
-TAVILY_API_KEY=xxx
-USER_AGENT="Cybersecurity"
-```
-
-Make sure to replace `xxx` with your actual API keys and set the appropriate values for each parameter.
