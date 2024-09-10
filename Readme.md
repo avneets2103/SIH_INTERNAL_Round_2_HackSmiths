@@ -143,8 +143,8 @@ and close existing defense gaps, securing India’s economic and national stabil
 
 ## Project Links
  
-- **SIH Presentation:** [Final SIH Presentation](https://github.com/avneets2103/SIH_INTERNAL_Round_2_HackSmiths/blob/main/files/SIH_PPT_HackSmiths.pdf) <!-- TODO: Add video link here -->
-- **Video Demonstration:** [Watch_Demo Video]() <!-- Change live link -->
+- **SIH Presentation:** [Final SIH Presentation](https://github.com/avneets2103/SIH_INTERNAL_Round_2_HackSmiths/blob/main/files/SIH_PPT_HackSmiths.pdf)
+- **Video Demonstration:** [Watch_Demo Video](https://youtu.be/PodnTaBGsXU) <!-- Change live link -->
 - **Live Deployment:** [View Deployment](https://sih-app.vercel.app/login)
 - **Source Code** [View Source Code](https://github.com/avneets2103/SIH_INTERNAL_Round_2_HackSmiths/tree/main/code)
 

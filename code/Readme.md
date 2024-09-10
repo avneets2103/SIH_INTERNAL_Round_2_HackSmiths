@@ -77,7 +77,6 @@ Follow these steps to run the project locally.
 
 ### 1. Clone the Repository
 
-<!-- TODO: Changes to make here  -->
 ```bash
 git clone https://github.com/avneets2103/SIH_INTERNAL_Round_2_HackSmiths
 cd SIH_INTERNAL_Round_2_HackSmiths
