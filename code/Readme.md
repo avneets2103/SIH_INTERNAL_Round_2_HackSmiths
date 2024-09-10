@@ -130,18 +130,78 @@ Follow these steps to set up and run the backend locally:
    npm run dev
    ```   
    This will start the server on port 3000 and you can access it by visiting http://localhost:3000 in your web browser.
+### 3. Run the Python Server
+
+To set up and run the Python server:
+
+1. **Navigate to the RAGServer directory**
+
+   ```bash
+   cd RAGAgentServer/
+   ```
+
+2. **Create and activate a Conda environment**
+
+   ```bash
+   conda create -n chat_assist python=3.10 anaconda
+   conda activate chat_assist
+   ```
+
+3. **Install dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Configure Environment Variables**
+
+   Create a `.env` file in the `RAGAgentServer` directory with the following content:
+
+   ```
+   LANGCHAIN_API_KEY=xxx
+   LANGCHAIN_PROJECT=ProjectName
+   GOOGLE_API_KEY=xxx
+   GROQ_API_KEY=xxx
+   SERVER_PORT=5000
+   SERPER_API_KEY=xxx
+   SERP_API_KEY=xxx
+   TAVILY_API_KEY=xxx
+   USER_AGENT="Cybersecurity"
+   ```
+
+   Replace `xxx` with your actual API keys.
+
+5. **Start the server**
+
+   ```bash
+   python3 app.py
+   ```
+
+   The python server will run on port 5000.
+
+### API Endpoints
+
+The Python server provides the following API endpoints:
+
+1. **Create a new job**
+   - **URL:** `http://localhost:5000/api/crew`
+   - **Method:** POST
+   - **Input format:**
+     ```json
+     {
+       "question": "your question to multi-rag agent here"
+     }
+     ```
+   - **Output:**
+     ```json
+     {
+       "job_id": "a unique job_id for the question here"
+     }
+     ```
+
+2. **Get job results**
+   - **URL:** `http://localhost:5000/api/crew/<job_id>`
+   - **Method:** GET
+   - **Response:** A JSON object containing information about recent articles and blogs on cybersecurity threats, incidents, cybersecurity practices, and their relevance in Indian cyberspace.
 
 
-<!-- TODO: Local setup of python server here -->
-### 3. Run the Python server
-```bash
-cd PythonServer
-pip install -r requirements.txt
-python api.py
-```
-The backend will run on port 4000.
-Create an .env file with the following content:
-<!-- TODO: Add the env file here -->
-```
-
-```
