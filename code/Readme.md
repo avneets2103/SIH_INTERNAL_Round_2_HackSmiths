@@ -137,7 +137,7 @@ To set up and run the Python server:
 1. **Navigate to the RAGServer directory**
 
    ```bash
-   cd RAGServer/
+   cd RAGAgentServer/
    ```
 
 2. **Create and activate a Conda environment**
