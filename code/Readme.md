@@ -155,7 +155,7 @@ To set up and run the Python server:
 
 4. **Configure Environment Variables**
 
-   Create a `.env` file in the `RAGServer` directory with the following content:
+   Create a `.env` file in the `RAGAgentServer` directory with the following content:
 
    ```
    LANGCHAIN_API_KEY=xxx
@@ -177,7 +177,7 @@ To set up and run the Python server:
    python3 app.py
    ```
 
-   The server will run on port 5000 by default.
+   The python server will run on port 5000.
 
 ### API Endpoints
 
