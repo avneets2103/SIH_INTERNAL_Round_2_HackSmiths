@@ -194,4 +194,6 @@ def start():
     return "The server is running!"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.getenv('PORT', 6000))
+    app.run(debug=True, host='0.0.0.0', port=port)
+
