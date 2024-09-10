@@ -15,12 +15,14 @@ This repository contains the codebase for a **Real-Time Cyber Threat Monitoring 
 - [x] **Task 4:** Built an interactive dashboard that provides real-time threat alerts and comprehensive reports for stakeholders.
 
 ## Technology Stack
-<!-- TODO: Add ML related shields here -->
 ![AWS](https://img.shields.io/badge/AWS-acdsa?style=for-the-badge&logo=amazonwebservices&logoColor=white&labelColor=%23232F3E&color=%23232F3E)
 ![LangChain](https://img.shields.io/badge/LangChain-adsac?style=for-the-badge&logo=langchain&logoColor=white&labelColor=%231C3C3C&color=%231C3C3C)
 ![RNN](https://img.shields.io/badge/RNN-rnn?style=for-the-badge&logoColor=white&labelColor=black&color=black)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-rnn?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=%23FF6F00&color=%23FF6F00)
 ![Pythorch](https://img.shields.io/badge/Pytorch-rnn?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=%23EE4C2C&color=%23EE4C2C)
+![CrewAI](https://img.shields.io/badge/CrewAI-as?style=for-the-badge&logo=crewunited&logoColor=white&labelColor=%23000000&color=%23000000)
+![Flask](https://img.shields.io/badge/Flask-as?style=for-the-badge&logo=flask&logoColor=white&labelColor=%23000000&color=%23000000)
+![Unsplash](https://img.shields.io/badge/Unsplash-as?style=for-the-badge&logo=unsplash&logoColor=white&labelColor=%23000000&color=%23000000)
 ![NextJS](https://img.shields.io/badge/NextJS-black?style=for-the-badge&logo=Next.js&logoColor=white&color=black) 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) 
 ![NextUI](https://img.shields.io/badge/NextUI-black?style=for-the-badge&logo=nextui&logoColor=black&color=CCFFFF) 
@@ -39,9 +41,13 @@ This repository contains the codebase for a **Real-Time Cyber Threat Monitoring 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 ![JWT](https://img.shields.io/badge/JWT-b?style=for-the-badge&logo=jsonwebtokens&logoColor=white&color=%23000000) 
 
+
 This project leverages the following technologies:
-<!-- TODO: Update and append ML and backend tech stack here -->
 - **[Langchain](https://python.langchain.com/v0.2/docs/introduction/):** Framework for utilizing large language models to aid in threat analysis and classification.
+- **[CrewAI](https://github.com/crew-ai/crew-ai)**: Library for implementing the multi-agent RAG system.
+- **[Flask](https://flask.palletsprojects.com/en/2.3.x/)**: Python backend for managing chatbot interactions.
+- **[Open source LLM model]()**: llama3-70b-8192 (used through ChatGroq tool provided by Langchain)
+- **[Unsplash API (free tier)]()**: to generate images for articles through LLM prompt
 - **[Next.js](https://nextjs.org/):** A powerful framework for building server-rendered React applications.
 - **[Typescript](https://www.typescriptlang.org/):** Enhances JavaScript with type safety, reducing bugs and improving code maintainability.
 - **[RTK (Redux Toolkit)](https://redux-toolkit.js.org/):** State management library for React, ensuring efficient data flow across the app.
