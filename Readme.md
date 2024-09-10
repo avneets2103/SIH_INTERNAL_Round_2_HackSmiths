@@ -85,7 +85,12 @@ and close existing defense gaps, securing India’s economic and national stabil
 ![alt text](image.png)
 
 # 🛠️ **Technologies Used:**  
-<!-- TODO: Add ML and backend related shields here -->
+<!-- TODO: Add ML related shields here -->
+![AWS](https://img.shields.io/badge/AWS-acdsa?style=for-the-badge&logo=amazonwebservices&logoColor=white&labelColor=%23232F3E&color=%23232F3E)
+![LangChain](https://img.shields.io/badge/LangChain-adsac?style=for-the-badge&logo=langchain&logoColor=white&labelColor=%231C3C3C&color=%231C3C3C)
+![RNN](https://img.shields.io/badge/RNN-rnn?style=for-the-badge&logoColor=white&labelColor=black&color=black)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-rnn?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=%23FF6F00&color=%23FF6F00)
+![Pythorch](https://img.shields.io/badge/Pytorch-rnn?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=%23EE4C2C&color=%23EE4C2C)
 ![NextJS](https://img.shields.io/badge/NextJS-black?style=for-the-badge&logo=Next.js&logoColor=white&color=black) 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) 
 ![NextUI](https://img.shields.io/badge/NextUI-black?style=for-the-badge&logo=nextui&logoColor=black&color=CCFFFF) 
@@ -102,8 +107,18 @@ and close existing defense gaps, securing India’s economic and national stabil
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) 
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![JWT](https://img.shields.io/badge/JWT-b?style=for-the-badge&logo=jsonwebtokens&logoColor=white&color=%23000000) 
 
-<!-- TODO: Add ML and backend related stack here -->
+
+<!-- TODO: Add ML related stack here -->
+
+### **Python Server:**
+- **LangChain:** A framework for building applications powered by large language models.
+- **RNN**: A type of neural network used for processing sequential data.
+- **TensorFlow**: An open-source machine learning library developed by Google.
+- **Pytorch**: An open-source machine learning library developed by Facebook.
+
+
 ### **Frontend & Edge Functions:**
 - **Next.js:** A versatile and powerful framework for building server-rendered React applications.
 - **Typescript::** A strongly typed programming language that builds on JavaScript, helps reduce bugs, and improves code quality.
@@ -114,15 +129,17 @@ and close existing defense gaps, securing India’s economic and national stabil
 
 ### **Website Backend:**
 - **Node:** A JavaScript runtime built on Chrome's V8 JavaScript engine. It's fast, it's easy to use, and it works on all operating systems.
+- **Postman**: A tool for testing APIs.
+- **Express.js**: A Node.js framework for building web applications.
 - **MongoDB:** A document database that stores data in flexible, JSON-like documents.
-
-### **Python Server:**
-- **LangChain:** 
+- **JWT**: A token-based authentication system for securing API requests.
+- **AWS**: A cloud computing platform that provides scalable and cost-effective infrastructure for hosting web applications.
+- **NPM**: A package manager for Node.js, used for managing dependencies and managing the project's codebase.
+- **JavaScript**: A programming language that is used to add interactivity and dynamic behavior to web pages.
 
 ## Project Links
  
-- **SIH Presentation:** [Final SIH Presentation](https://github.com/avneets2103/SIH_INTERNAL_Round_2_HackSmiths/blob/main/files/SIH_PPT_HackSmiths.pdf)
-<!-- TODO: Add video link here -->
+- **SIH Presentation:** [Final SIH Presentation](https://github.com/avneets2103/SIH_INTERNAL_Round_2_HackSmiths/blob/main/files/SIH_PPT_HackSmiths.pdf) <!-- TODO: Add video link here -->
 - **Video Demonstration:** [Watch_Demo Video]()
 - **Live Deployment:** [View Deployment](https://sih-app.vercel.app/login)
 - **Source Code** [View Source Code](https://github.com/avneets2103/SIH_INTERNAL_Round_2_HackSmiths/tree/main/code)

@@ -15,19 +15,48 @@ This repository contains the codebase for a **Real-Time Cyber Threat Monitoring 
 - [x] **Task 4:** Built an interactive dashboard that provides real-time threat alerts and comprehensive reports for stakeholders.
 
 ## Technology Stack
+<!-- TODO: Add ML related shields here -->
+![AWS](https://img.shields.io/badge/AWS-acdsa?style=for-the-badge&logo=amazonwebservices&logoColor=white&labelColor=%23232F3E&color=%23232F3E)
+![LangChain](https://img.shields.io/badge/LangChain-adsac?style=for-the-badge&logo=langchain&logoColor=white&labelColor=%231C3C3C&color=%231C3C3C)
+![RNN](https://img.shields.io/badge/RNN-rnn?style=for-the-badge&logoColor=white&labelColor=black&color=black)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-rnn?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=%23FF6F00&color=%23FF6F00)
+![Pythorch](https://img.shields.io/badge/Pytorch-rnn?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=%23EE4C2C&color=%23EE4C2C)
+![NextJS](https://img.shields.io/badge/NextJS-black?style=for-the-badge&logo=Next.js&logoColor=white&color=black) 
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) 
+![NextUI](https://img.shields.io/badge/NextUI-black?style=for-the-badge&logo=nextui&logoColor=black&color=CCFFFF) 
+![Acceternity](https://img.shields.io/badge/a-acceternity?style=for-the-badge&logoColor=white&logoSize=auto&label=Acceternity&labelColor=white&color=black)
+![Tailwind](https://img.shields.io/badge/Tailwind-b?style=for-the-badge&logo=tailwindcss&logoColor=black&color=06B6D4) 
+![Typescript](https://img.shields.io/badge/Typescript-b?style=for-the-badge&logo=typescript&logoColor=white&color=3178C6)
+![Redux Tool Kit](https://img.shields.io/badge/Redux%20Tool%20Kit-b?style=for-the-badge&logo=redux&logoColor=white&color=764ABC) 
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) 
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) 
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) 
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![JWT](https://img.shields.io/badge/JWT-b?style=for-the-badge&logo=jsonwebtokens&logoColor=white&color=%23000000) 
 
 This project leverages the following technologies:
 <!-- TODO: Update and append ML and backend tech stack here -->
+- **[Langchain](https://python.langchain.com/v0.2/docs/introduction/):** Framework for utilizing large language models to aid in threat analysis and classification.
 - **[Next.js](https://nextjs.org/):** A powerful framework for building server-rendered React applications.
 - **[Typescript](https://www.typescriptlang.org/):** Enhances JavaScript with type safety, reducing bugs and improving code maintainability.
-- **[Node.js](https://nodejs.org/en):** Backend runtime built on Chrome's V8 JavaScript engine, optimized for scalability and speed.
-- **[MongoDB](https://www.mongodb.com/):** NoSQL database used to store threat data, enabling flexible and scalable data management.
 - **[RTK (Redux Toolkit)](https://redux-toolkit.js.org/):** State management library for React, ensuring efficient data flow across the app.
 - **[NextUI](https://nextui.org/):** A library for sleek and responsive UI components, ensuring a polished user experience.
 - **[Tailwind CSS](https://tailwindcss.com/):** Utility-first CSS framework, enabling rapid UI design and development.
 - **[Nodemailer](https://www.npmjs.com/package/nodemailer):** Allows the system to send automated email alerts for critical threat updates.
-- **[JWT](https://jwt.io/):** Used for secure authentication, ensuring only authorized users have access to sensitive threat data.
-- **[Langchain](https://python.langchain.com/v0.2/docs/introduction/):** Framework for utilizing large language models to aid in threat analysis and classification.
+- **[Node](https://nodejs.ord/en):** A JavaScript runtime built on Chrome's V8 JavaScript engine. It's fast, it's easy to use, and it works on all operating systems.
+- **[Postman](https://www.postman.com/)**: A tool for testing APIs.
+- **[Express.js](https://expressjs.com/)**: A Node.js framework for building web applications.
+- **[MongoDB](https://www.mongodb.com/):** A document database that stores data in flexible, JSON-like documents.
+- **[JWT](https://jwt.io/)**: A token-based authentication system for securing API requests.
+- **[AWS](https://aws.amazon.com/)**: A cloud computing platform that provides scalable and cost-effective infrastructure for hosting web applications.
+- **[NPM](https://www.npmjs.com/)**: A package manager for Node.js, used for managing dependencies and managing the project's codebase.
+- **[JavaScript](https://www.javascript.com/)**: A programming language that is used to add interactivity and dynamic behavior to web pages.
+
 
 ## Key Features
 
