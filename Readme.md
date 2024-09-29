@@ -9,15 +9,15 @@ cyber incidents pertaining to Indian Cyber Space.**
 
 ## Team Details
 
-**Team Leader:** Harsh Kumar (2021UCA1829) [@DeveHk](https://github.com/DeveHk)
+**Team Leader:** - Balvinder Singh (2021UCA1845) - [@balvind3r](https://github.com/balvind3r)
 
 **Team Members:**
 
-- **MEMBER_1** - Harsh Kumar   (2021UCA1829) - [@DeveHk](https://github.com/DeveHk)
+- **MEMBER_1** - Balvinder Singh (2021UCA1845) - [@balvind3r](https://github.com/balvind3r)
 - **MEMBER_2** - Raghav Mangla (2021UCA1822) - [@RaghavMangla](https://github.com/RaghavMangla)
 - **MEMBER_3** - Avneet Singh Bedi (2021UCA1815) - [@avneets2103](https://github.com/avneets2103)
 - **MEMBER_4** - Sneha Gupta (2021UCA1859) - [@snehagupta20](https://github.com/snehagupta20)
-- **MEMBER_5** - Balvinder Singh (2021UCA1845) - [@balvind3r](https://github.com/balvind3r)
+- **MEMBER_5** - Harsh Kumar   (2021UCA1829) - [@DeveHk](https://github.com/DeveHk)
 - **MEMBER_6** - Laksshay Sehrawat (2021UCA1802) - [@Laksshay-Sehrawat](https://github.com/Laksshay-Sehrawat)
 
 <br>
